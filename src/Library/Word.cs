@@ -13,7 +13,7 @@ namespace WordsPhrases
 
         public Word(string text)
         {
-            this.Text = text.Trim();
+            this.Text = text;
         }
 
         public string Text
@@ -25,7 +25,7 @@ namespace WordsPhrases
 
             set
             {
-                this.text = value;
+                this.text = value.Trim();
             }
         }
     }
